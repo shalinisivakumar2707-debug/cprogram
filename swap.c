@@ -9,8 +9,6 @@ int main() {
     swap(&x,&y);
      printf("After swaping:\n");
     printf("X=%d Y=%d\n",x,y);
-   
-
     return 0;
 }
 void swap(int *a,int *b)
@@ -20,4 +18,7 @@ void swap(int *a,int *b)
     *a=*b;
     *b=temp;
 }
+
+
+
 
